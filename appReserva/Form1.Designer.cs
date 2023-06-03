@@ -106,6 +106,7 @@
             this.reservaToolStripMenuItem.Name = "reservaToolStripMenuItem";
             this.reservaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.reservaToolStripMenuItem.Text = "Reserva";
+            this.reservaToolStripMenuItem.Click += new System.EventHandler(this.reservaToolStripMenuItem_Click);
             // 
             // reporteToolStripMenuItem
             // 
@@ -120,6 +121,7 @@
             this.resevacionesToolStripMenuItem.Name = "resevacionesToolStripMenuItem";
             this.resevacionesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.resevacionesToolStripMenuItem.Text = "Resevaciones";
+            this.resevacionesToolStripMenuItem.Click += new System.EventHandler(this.resevacionesToolStripMenuItem_Click);
             // 
             // Form1
             // 

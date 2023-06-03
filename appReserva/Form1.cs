@@ -34,5 +34,17 @@ namespace appReserva
             frmCliente frmCliente = new frmCliente();
             frmCliente.ShowDialog();
         }
+
+        private void reservaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmReservas frmReservas = new frmReservas();
+            frmReservas.ShowDialog();
+        }
+
+        private void resevacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmReservados frmReservados = new frmReservados();
+            frmReservados.ShowDialog();
+        }
     }
 }

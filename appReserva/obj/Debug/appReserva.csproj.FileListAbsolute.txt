@@ -12,3 +12,5 @@ C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserv
 C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.pdb
 C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.frmObjetos.resources
 C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.frmCliente.resources
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.frmReservas.resources
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.frmReservados.resources
