@@ -1,0 +1,14 @@
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\bin\Debug\appReserva.exe.config
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\bin\Debug\appReserva.exe
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\bin\Debug\appReserva.pdb
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.csproj.AssemblyReference.cache
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.Form1.resources
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.frmEmpresa.resources
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.Properties.Resources.resources
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.csproj.GenerateResource.cache
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.csproj.CoreCompileInputs.cache
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.exe
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.pdb
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.frmObjetos.resources
+C:\Users\alexi\OneDrive\Documentos\C# Universidad\appReserva\obj\Debug\appReserva.frmCliente.resources
