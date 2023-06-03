@@ -147,9 +147,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::appReserva.Properties.Resources.pictureBox1_Image;
-            this.pictureBox1.Location = new System.Drawing.Point(236, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(199, 23);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(290, 253);
+            this.pictureBox1.Size = new System.Drawing.Size(319, 253);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;

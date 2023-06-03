@@ -32,6 +32,8 @@
             System.Windows.Forms.Label idEmpresaLabel;
             System.Windows.Forms.Label nombreLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReservas));
+            System.Windows.Forms.Label label1;
+            System.Windows.Forms.Label label2;
             this.tbEmpresaBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.tbEmpresaBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -67,8 +69,11 @@
             this.tbClienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tbClienteTableAdapter = new appReserva.bdReservaumgDataSetTableAdapters.tbClienteTableAdapter();
             this.btnEliminarR = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             idEmpresaLabel = new System.Windows.Forms.Label();
             nombreLabel = new System.Windows.Forms.Label();
+            label1 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tbEmpresaBindingNavigator)).BeginInit();
             this.tbEmpresaBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbEmpresaBindingSource)).BeginInit();
@@ -78,23 +83,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.bdReservaumgDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbClienteBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // idEmpresaLabel
             // 
             idEmpresaLabel.AutoSize = true;
-            idEmpresaLabel.Location = new System.Drawing.Point(121, 95);
+            idEmpresaLabel.Font = new System.Drawing.Font("Constantia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            idEmpresaLabel.Location = new System.Drawing.Point(91, 77);
+            idEmpresaLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             idEmpresaLabel.Name = "idEmpresaLabel";
-            idEmpresaLabel.Size = new System.Drawing.Size(79, 16);
+            idEmpresaLabel.Size = new System.Drawing.Size(85, 18);
             idEmpresaLabel.TabIndex = 1;
             idEmpresaLabel.Text = "id Empresa:";
             // 
             // nombreLabel
             // 
             nombreLabel.AutoSize = true;
-            nombreLabel.Location = new System.Drawing.Point(121, 123);
+            nombreLabel.Font = new System.Drawing.Font("Constantia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            nombreLabel.Location = new System.Drawing.Point(91, 100);
+            nombreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             nombreLabel.Name = "nombreLabel";
-            nombreLabel.Size = new System.Drawing.Size(59, 16);
+            nombreLabel.Size = new System.Drawing.Size(65, 18);
             nombreLabel.TabIndex = 3;
             nombreLabel.Text = "Nombre:";
             // 
@@ -125,7 +135,7 @@
             this.tbEmpresaBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.tbEmpresaBindingNavigator.Name = "tbEmpresaBindingNavigator";
             this.tbEmpresaBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.tbEmpresaBindingNavigator.Size = new System.Drawing.Size(800, 27);
+            this.tbEmpresaBindingNavigator.Size = new System.Drawing.Size(627, 27);
             this.tbEmpresaBindingNavigator.TabIndex = 0;
             this.tbEmpresaBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -135,7 +145,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorAddNewItem.Text = "Agregar nuevo";
             // 
             // tbEmpresaBindingSource
@@ -151,7 +161,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(48, 24);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 24);
             this.bindingNavigatorCountItem.Text = "de {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Número total de elementos";
             // 
@@ -161,7 +171,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorDeleteItem.Text = "Eliminar";
             // 
             // bindingNavigatorMoveFirstItem
@@ -170,7 +180,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveFirstItem.Text = "Mover primero";
             // 
             // bindingNavigatorMovePreviousItem
@@ -179,7 +189,7 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Mover anterior";
             // 
             // bindingNavigatorSeparator
@@ -193,7 +203,7 @@
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(38, 23);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Posición actual";
             // 
@@ -208,7 +218,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveNextItem.Text = "Mover siguiente";
             // 
             // bindingNavigatorMoveLastItem
@@ -217,7 +227,7 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveLastItem.Text = "Mover último";
             // 
             // bindingNavigatorSeparator2
@@ -230,24 +240,26 @@
             this.tbEmpresaBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tbEmpresaBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("tbEmpresaBindingNavigatorSaveItem.Image")));
             this.tbEmpresaBindingNavigatorSaveItem.Name = "tbEmpresaBindingNavigatorSaveItem";
-            this.tbEmpresaBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.tbEmpresaBindingNavigatorSaveItem.Size = new System.Drawing.Size(24, 24);
             this.tbEmpresaBindingNavigatorSaveItem.Text = "Guardar datos";
             this.tbEmpresaBindingNavigatorSaveItem.Click += new System.EventHandler(this.tbEmpresaBindingNavigatorSaveItem_Click);
             // 
             // idEmpresaTextBox
             // 
             this.idEmpresaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbEmpresaBindingSource, "idEmpresa", true));
-            this.idEmpresaTextBox.Location = new System.Drawing.Point(206, 92);
+            this.idEmpresaTextBox.Location = new System.Drawing.Point(176, 77);
+            this.idEmpresaTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.idEmpresaTextBox.Name = "idEmpresaTextBox";
-            this.idEmpresaTextBox.Size = new System.Drawing.Size(100, 22);
+            this.idEmpresaTextBox.Size = new System.Drawing.Size(156, 20);
             this.idEmpresaTextBox.TabIndex = 2;
             // 
             // nombreTextBox
             // 
             this.nombreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbEmpresaBindingSource, "Nombre", true));
-            this.nombreTextBox.Location = new System.Drawing.Point(206, 120);
+            this.nombreTextBox.Location = new System.Drawing.Point(176, 100);
+            this.nombreTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nombreTextBox.Name = "nombreTextBox";
-            this.nombreTextBox.Size = new System.Drawing.Size(100, 22);
+            this.nombreTextBox.Size = new System.Drawing.Size(156, 20);
             this.nombreTextBox.TabIndex = 4;
             // 
             // tbObjetoBindingSource
@@ -258,17 +270,19 @@
             // tbObjetoDataGridView
             // 
             this.tbObjetoDataGridView.AutoGenerateColumns = false;
+            this.tbObjetoDataGridView.BackgroundColor = System.Drawing.Color.Thistle;
             this.tbObjetoDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tbObjetoDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3});
             this.tbObjetoDataGridView.DataSource = this.tbObjetoBindingSource;
-            this.tbObjetoDataGridView.Location = new System.Drawing.Point(59, 172);
+            this.tbObjetoDataGridView.Location = new System.Drawing.Point(0, 140);
+            this.tbObjetoDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbObjetoDataGridView.Name = "tbObjetoDataGridView";
             this.tbObjetoDataGridView.RowHeadersWidth = 51;
             this.tbObjetoDataGridView.RowTemplate.Height = 24;
-            this.tbObjetoDataGridView.Size = new System.Drawing.Size(428, 220);
+            this.tbObjetoDataGridView.Size = new System.Drawing.Size(429, 179);
             this.tbObjetoDataGridView.TabIndex = 5;
             // 
             // dataGridViewTextBoxColumn1
@@ -298,9 +312,11 @@
             // 
             // btnReservar
             // 
-            this.btnReservar.Location = new System.Drawing.Point(562, 65);
+            this.btnReservar.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReservar.Location = new System.Drawing.Point(452, 314);
+            this.btnReservar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnReservar.Name = "btnReservar";
-            this.btnReservar.Size = new System.Drawing.Size(75, 23);
+            this.btnReservar.Size = new System.Drawing.Size(162, 36);
             this.btnReservar.TabIndex = 6;
             this.btnReservar.Text = "Reservar";
             this.btnReservar.UseVisualStyleBackColor = true;
@@ -310,10 +326,11 @@
             // 
             this.dtmInicio.CustomFormat = "dd/MM/yy H:mm";
             this.dtmInicio.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtmInicio.Location = new System.Drawing.Point(504, 222);
+            this.dtmInicio.Location = new System.Drawing.Point(444, 148);
+            this.dtmInicio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtmInicio.Name = "dtmInicio";
             this.dtmInicio.ShowUpDown = true;
-            this.dtmInicio.Size = new System.Drawing.Size(226, 22);
+            this.dtmInicio.Size = new System.Drawing.Size(170, 20);
             this.dtmInicio.TabIndex = 10;
             this.dtmInicio.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
@@ -321,10 +338,11 @@
             // 
             this.dtmFin.CustomFormat = "dd/MM/yy H:mm";
             this.dtmFin.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtmFin.Location = new System.Drawing.Point(504, 307);
+            this.dtmFin.Location = new System.Drawing.Point(444, 217);
+            this.dtmFin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtmFin.Name = "dtmFin";
             this.dtmFin.ShowUpDown = true;
-            this.dtmFin.Size = new System.Drawing.Size(226, 22);
+            this.dtmFin.Size = new System.Drawing.Size(170, 20);
             this.dtmFin.TabIndex = 11;
             // 
             // tbEmpresaTableAdapter
@@ -363,9 +381,10 @@
             this.idCliente.DataSource = this.tbClienteBindingSource;
             this.idCliente.DisplayMember = "Nombre";
             this.idCliente.FormattingEnabled = true;
-            this.idCliente.Location = new System.Drawing.Point(562, 115);
+            this.idCliente.Location = new System.Drawing.Point(450, 77);
+            this.idCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.idCliente.Name = "idCliente";
-            this.idCliente.Size = new System.Drawing.Size(121, 24);
+            this.idCliente.Size = new System.Drawing.Size(150, 21);
             this.idCliente.TabIndex = 12;
             this.idCliente.ValueMember = "idCliente";
             // 
@@ -380,19 +399,57 @@
             // 
             // btnEliminarR
             // 
-            this.btnEliminarR.Location = new System.Drawing.Point(655, 65);
+            this.btnEliminarR.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarR.Location = new System.Drawing.Point(452, 261);
+            this.btnEliminarR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminarR.Name = "btnEliminarR";
-            this.btnEliminarR.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminarR.Size = new System.Drawing.Size(162, 36);
             this.btnEliminarR.TabIndex = 13;
             this.btnEliminarR.Text = "Eliminar";
             this.btnEliminarR.UseVisualStyleBackColor = true;
             this.btnEliminarR.Click += new System.EventHandler(this.btnEliminarR_Click);
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Constantia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Location = new System.Drawing.Point(478, 128);
+            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(106, 18);
+            label1.TabIndex = 14;
+            label1.Text = "Fecha de Inicio";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Constantia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label2.Location = new System.Drawing.Point(478, 197);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(90, 18);
+            label2.TabIndex = 15;
+            label2.Text = "Fecha de Fin";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::appReserva.Properties.Resources.pictureBox1_Image;
+            this.pictureBox1.Location = new System.Drawing.Point(-5, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(91, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmReservas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 475);
+            this.BackColor = System.Drawing.Color.LightBlue;
+            this.ClientSize = new System.Drawing.Size(627, 386);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(label2);
+            this.Controls.Add(label1);
             this.Controls.Add(this.btnEliminarR);
             this.Controls.Add(this.idCliente);
             this.Controls.Add(this.dtmFin);
@@ -404,6 +461,7 @@
             this.Controls.Add(nombreLabel);
             this.Controls.Add(this.nombreTextBox);
             this.Controls.Add(this.tbEmpresaBindingNavigator);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmReservas";
             this.Text = "frmReservas";
             this.Load += new System.EventHandler(this.frmReservas_Load);
@@ -417,6 +475,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bdReservaumgDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbClienteBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -459,5 +518,6 @@
         private System.Windows.Forms.BindingSource tbClienteBindingSource;
         private bdReservaumgDataSetTableAdapters.tbClienteTableAdapter tbClienteTableAdapter;
         private System.Windows.Forms.Button btnEliminarR;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
